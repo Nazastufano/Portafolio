@@ -388,6 +388,7 @@ input.formcontato__input {
     height: 56px;
     background: var(--cor-de-fundo);
     border-radius: 4px;
+    font-size: 16px;
 }
 
 .formcontato__textarea{
@@ -395,6 +396,7 @@ input.formcontato__input {
     height: 133px;
     background: var(--cor-de-fundo);
     border-radius: 4px;
+    font-size: 16px;
 }
 
 button.formcontato__botao {
@@ -420,7 +422,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (max-width: 860px) {
+@media (max-width: 1024px) {
 
 /* Menú */
     section.menu{
