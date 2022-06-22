@@ -255,11 +255,11 @@
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted
                         lo antes posible. </h3>
                     <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre" maxlength="50">
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required data-tipo="email">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required data-tipo="asunto" maxlength="50">
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                            placeholder="Mensaje"></textarea>
+                            placeholder="Mensaje" maxlength="300"></textarea>
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
                 </div>
@@ -276,6 +276,7 @@
     </div>
     <!-- Script del documento JavaScript -->
     <script src="validacion.js"></script>
+    
 </body>
 
 </html>
