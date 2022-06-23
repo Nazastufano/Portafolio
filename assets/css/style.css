@@ -79,11 +79,11 @@ section.menu{
 }
 /*Sección Title*/
 
-section.title{
+section.title {
     padding: 0 10%;
     color: var(--white);
     display: grid;
-    background: linear-gradient(360deg,#2c2c68 77%, var(--cor-de-link));
+    background: linear-gradient(360deg,#2c2c68 , var(--cor-de-link));
 }
 
 .title__div{
@@ -150,6 +150,10 @@ section.about{
     grid-template-columns: 20% 20% 25% 25%;
 }
 
+.about__title{
+    font-size: 24px;
+}
+
 .about__title, .about__paragraph, .about__container img{
     grid-column: 1 / 4;
 }
@@ -162,6 +166,7 @@ section.skills, .hobbies{
 }
 
 .skills__title, .hobbies__title{
+    font-size: 24px;
     color: var(--white);
 }
 
@@ -235,6 +240,10 @@ h2.academic__title {
 
 .academic__courses__box:nth-child(3){
     grid-column: 3 / 4;
+}
+
+.academic__courses__box:nth-child(3) img{
+    width: 250px
 }
 
 ul.academic__courses__list {
@@ -315,6 +324,16 @@ section.experience{
     border-radius: 15px;
 }
 
+button.experiencia__botao--repo:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    color: #40726e;
+    transition: 1s;
+    border-color: black;
+    width: 105px;
+    height: 45px;
+}
+
 .experience__botao--demo{
     background: lightgray;
     width: 100px;
@@ -322,6 +341,16 @@ section.experience{
     color: black;
     border: black solid 1px;
     border-radius: 15px;
+}
+
+button.experience__botao--demo:hover {
+    background-color: #40726e;
+    cursor: pointer;
+    color: lightgray;
+    transition: 1s;
+    border-color: white;
+    width: 105px;
+    height: 45px;
 }
 
 /*Contacto*/
@@ -354,9 +383,9 @@ img.formcontato__img {
 
 .formcontato__text {
     display: grid;
-    grid-template-rows: 10% 4% 11% 75%;
+    grid-template-rows: 9% 4% 11% 75%;
     align-items: flex-start;
-}
+}    
 
 h2.formcontato__title {
     grid-row: 1 /2;
@@ -511,7 +540,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     .title__container{
         text-align: justify;
-        margin: 100px 0;
+        margin: 100px 0 20px 0;
     }
 
     .title__network{
@@ -531,6 +560,8 @@ Utiliza las referencias de los breakpoints @media abajo */
         display: grid;
         grid-template-columns: auto;
     }
+
+
 /*Skills*/
     section.skills, section.hobbies{
         text-align: center;
@@ -549,6 +580,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     .skills__box, .hobbies__box{
+        border-radius: 5px;
         display: flex;
         width: 40vw;
         height: 174px;
@@ -563,7 +595,6 @@ Utiliza las referencias de los breakpoints @media abajo */
         height: auto;
         padding: inherit;
         gap: .5%;
-        padding-bottom: 2rem;
         flex-direction: column;
     }
 
@@ -583,7 +614,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: inherit;
         width: 100vw;
         flex-direction: column;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         justify-content: center;
     }
     
