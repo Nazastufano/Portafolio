@@ -707,6 +707,10 @@ Utiliza las referencias de los breakpoints @media abajo */
         text-align: center;
     }
 
+    .formcontato__form{
+        width: 100vw;
+    }
+
     button.formcontato__botao{
         width: 100%;
         margin-bottom: 1rem;
