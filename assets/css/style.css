@@ -315,6 +315,14 @@ section.experience{
     margin-right: 20px;
 }
 
+h2.experience__title {
+    color: #bb2929;
+}
+
+h3.experience__text {
+    width: 75%;
+}
+
 .experiencia__botao--repo{
     background: #40726e;
     width: 100px;
@@ -446,6 +454,13 @@ section.footer{
     background-color: rgb(28,23,38);
 }
 
+/* Estilos validación */
+.formcontato__input-incorrecto{
+    border: #bb2929 solid;
+}
+
+
+
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
@@ -507,6 +522,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         flex-direction: column;    
         align-items: center;
         padding: inherit;
+        background: linear-gradient(360deg,#2c2c68 , var(--cor-de-link));
     }
     
     .menu__list{
