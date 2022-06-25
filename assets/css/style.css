@@ -77,6 +77,11 @@ section.menu{
     padding: inherit;
     justify-content: space-between;
 }
+
+.menu__list__item:hover{
+    text-decoration: underline;
+}
+
 /*Sección Title*/
 
 section.title {
@@ -130,6 +135,10 @@ section.title {
 .title__network__item__a{
     align-items: center;
     display: flex;
+}
+
+a.title__network__item__a:hover {
+    text-decoration: underline;
 }
 
 .title__network__item__arrow{
