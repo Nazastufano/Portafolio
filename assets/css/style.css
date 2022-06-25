@@ -453,6 +453,7 @@ button.formcontato__botao {
     font-size: 15px;
     border-radius: 5px;
     border-color: var(--white);
+    cursor: pointer;
 }
 
 /*footeer*/
