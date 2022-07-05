@@ -110,11 +110,14 @@ section.title {
     grid-template-columns: auto;
     justify-content: space-between;
     margin: 100px 0;
-    text-align: justify;
 }
 
 .title__bio{
     font-size: 40px;
+}
+
+.title__subsection{
+    font-size: 22px;
 }
 
 .title__network{
@@ -165,6 +168,14 @@ section.about{
 
 .about__title, .about__paragraph, .about__container img{
     grid-column: 1 / 4;
+}
+
+.about__title{
+    font-size: 24px;
+}
+
+.about__paragraph{
+    font-size: 18px ;
 }
 
 /*Sección Skills y Hobbies*/
@@ -588,7 +599,6 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     .title__container{
         margin: 100px 0 20px 0;
-        text-align: justify;
     }
 
     .title__network{
