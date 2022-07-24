@@ -469,6 +469,13 @@ input.formcontato__input {
     border-radius: 4px;
     font-size: 16px;
     height: 56px;
+    width: 99%;
+}
+
+.input-message-error{
+    color: #db5353;
+    font-weight: 600;
+    margin-left: 5px;
 }
 
 .formcontato__textarea{
@@ -477,6 +484,7 @@ input.formcontato__input {
     font-size: 16px;
     height: 133px;
     resize: none;
+    width: 99%;
 }
 
 button.formcontato__botao {
@@ -501,6 +509,8 @@ section.footer{
 /* Estilos validación */
 .formcontato__input-incorrecto{
     border: #bb2929 solid;
+    display: flex;
+    flex-direction: column;
 }
 
 
