@@ -253,19 +253,19 @@
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted
                         lo antes posible. </h3>
                     <form class="formcontato__form" name="form" id="formulario">
-                        <div>
+                        <div class="formcontato__container">
                             <input class="formcontato__input" id="formcontacto__nombre" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre" maxlength="50">
                             <span class="input-message-error"></span>
                         </div>
-                        <div>
+                        <div class="formcontato__container">
                             <input class="formcontato__input" id="formcontacto__email" pattern="^\w+([\.\+\-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$" type="email" name="email" placeholder="E-mail" required data-tipo="email">
                             <span class="input-message-error"></span>
                         </div>
-                        <div>
+                        <div class="formcontato__container">
                             <input class="formcontato__input" id="formcontacto__asunto" type="text" name="asunto" placeholder="Asunto" required data-tipo="asunto" maxlength="50">
                             <span class="input-message-error"></span>
                         </div>
-                        <div>
+                        <div class="formcontato__container">
                             <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
                             placeholder="Mensaje" maxlength="300" data-tipo="mensaje" required></textarea>
                             <span class="input-message-error"></span>

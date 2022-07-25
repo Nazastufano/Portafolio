@@ -464,12 +464,17 @@ form.formcontato__form {
     justify-content: space-around;
 }
 
+.formcontato__container {
+    display: flex;
+    flex-direction: column;
+}
+
 input.formcontato__input {
     background: var(--cor-de-fundo);
     border-radius: 4px;
     font-size: 16px;
     height: 56px;
-    width: 99%;
+    width: 98%;
 }
 
 .input-message-error{
@@ -484,7 +489,7 @@ input.formcontato__input {
     font-size: 16px;
     height: 133px;
     resize: none;
-    width: 99%;
+    width: 98%;
 }
 
 button.formcontato__botao {
@@ -508,7 +513,7 @@ section.footer{
 
 /* Estilos validación */
 .formcontato__input-incorrecto{
-    border: #bb2929 solid;
+    border: #bb2929 solid 2px;
     display: flex;
     flex-direction: column;
 }
