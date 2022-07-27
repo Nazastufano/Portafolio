@@ -186,13 +186,11 @@ section.skills, .hobbies{
 }
 
 .skills__box:hover, .hobbies__box:hover {
-    background: #75add4;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    bottom: 10px;
-    color: white;
+    border-radius: 10px;
+    color: #2a7ae4;
     position: relative;
     transition: .7s;
+    transform: scale(1.05);
 }
 
 .skills__title, .hobbies__title{
@@ -292,10 +290,9 @@ li.academic__courses__item__img {
 }
 
 li.academic__courses__item__img:hover {
+    border-radius: 10px;
     transition: 1s;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background: #75add4;
+    transform: scale(1.03);
 }
 
 .academic__courses__item__img img{
@@ -348,8 +345,9 @@ section.experience{
 }
 
 img.experience__img:hover {
+    border-radius: 25px;
     transition: 1s;
-    border-radius: 50px;
+    transform: scale(1.03);
 }
 
 .experience__info-container{
@@ -379,10 +377,8 @@ button.experiencia__botao--repo:hover {
     border-color: black;
     color: #40726e;
     cursor: pointer;
-    height: 45px;
+    transform: scale(1.05);
     transition: 1s;
-    width: 105px;
-    
 }
 
 .experience__botao--demo{
@@ -399,9 +395,8 @@ button.experience__botao--demo:hover {
     border-color: white;
     color: lightgray;
     cursor: pointer;
-    height: 45px;
+    transform: scale(1.05);
     transition: 1s;
-    width: 105px;
 }
 
 /*Contacto*/
